@@ -41,6 +41,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Jump()
     {
-        transform.DOJump(transform.up * 5, 2, 1, 2);
+        transform.DOJump(transform.up * 5, 2, 1, 1);
     }
 }
